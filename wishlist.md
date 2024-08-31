@@ -16,7 +16,7 @@
 * Run "--ftdi-cmd" on limit: ex. `--ftdi-cmd="--max-temp-action ramp..."
 * Reduce and clean up logging information at each level.
 ## Intended Fixes
-* Disconnect handling.
+* Disconnect handling. Currently there are a couple situations that can go into crazy loops display a stream of errors.
 * With a large device count 20+(?) hotkeys can get very slow to respond.
 * TCP/IP devices require a second `--ftdi-cmd="monitor ..." or ramp up fails.
 * Printing on ramping live, makes it look like clock value jumped straight, skipping in between values
