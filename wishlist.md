@@ -6,7 +6,6 @@
 * Remote live command line: send "--ftdi-cmd=..." with scripting to a live running instance of RushMiner using standard utilities. 
 * Stats on individual cores.
 * Hotkey to set specific clock value.
-* For TCP/IP devices (ex. JC35) when specifying the devices, allow a port range instead of requiring specifying each device individually.
 * --ftdi-cmd's that take a --no-block can't currently be sequenced with successive --ftdi-cmd's. Add a way to not initiate a command until a specific command (non-block or otherwise) completes.
 
 ## Intended Improvements
