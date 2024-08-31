@@ -1,0 +1,2 @@
+# RushMiner
+FPGA Miner
