@@ -10,6 +10,7 @@
 * In TUI version, fill tabs with extended information on devices, cores, pools, etc. and allow selecting and running commands on various items.
 * Complete config file support.
 * Use launch configuration files as alternative to existing bash script format.
+* Automatic download of appropriate bitstream for you device.
 ## Intended Improvements
 * Documentation of usage and views.
 * Cleaner layout of stats.
