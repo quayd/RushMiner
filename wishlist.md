@@ -8,6 +8,8 @@
 * Hotkey to set specific clock value.
 * --ftdi-cmd's that take a --no-block can't currently be sequenced with successive --ftdi-cmd's. Add a way to not initiate a command until a specific command (non-block or otherwise) completes.
 * In TUI version, fill tabs with extended information on devices, cores, pools, etc. and allow selecting and running commands on various items.
+* Complete config file support.
+* Use launch configuration files as alternative to existing bash script format.
 ## Intended Improvements
 * Documentation of usage and views.
 * Cleaner layout of stats.
