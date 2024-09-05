@@ -1,4 +1,4 @@
-# RushMiner pre-release v0.2.8
+# RushMiner pre-release v0.2.9
 
 https://github.com/quayd/RushMiner/releases/latest
 
