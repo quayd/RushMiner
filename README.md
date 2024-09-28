@@ -53,5 +53,3 @@ sudo ./rushminer --log-level=info --no-ui --key-input --open-no-res -p rushtest 
     --ftdi-cmd="-g -t CVP13 ramp -t 280" \
     --ftdi-cmd="-x ramp -t 10"
 ```
-
-fdsa
