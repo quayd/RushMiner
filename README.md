@@ -37,7 +37,7 @@ RushMiner supports all the abilities of RushDev, so refer to RushDev github for 
 * HiveOS and MMPOS run off of Ubuntu 18.04, 20.04 or 22.04 depending on version. In theory they should work but are not yet confirmed.
 * Windows version coming shortly.
 ## Example Usage
-```
+`
 sudo ./rushminer --log-level=info --no-ui --key-input --open-no-res -p rushtest -o stratum+tcp://ton.hashrate.to:4002 -t gram -u "UQAZwEyMpjkLNP3I0ytqWT2N1oanX06hwM10gyN4KljABvT5"  \
     --ftdi-cmd="monitor -t 5500 -p 350 --unit-count=1 -v user" \
     --ftdi-cmd="ramp -t 0 -i" \
@@ -51,4 +51,7 @@ sudo ./rushminer --log-level=info --no-ui --key-input --open-no-res -p rushtest 
     --ftdi-cmd="-g -t C1100 ramp -t 350"  \
     --ftdi-cmd="-g -t FK33 ramp -t 420" \
     --ftdi-cmd="-g -t CVP13 ramp -t 280" \
-    --ftdi-cmd="-x ramp -t 10"```
+    --ftdi-cmd="-x ramp -t 10"
+`
+
+fdsa
