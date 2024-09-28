@@ -37,6 +37,7 @@ RushMiner supports all the abilities of RushDev, so refer to RushDev github for 
 * HiveOS and MMPOS run off of Ubuntu 18.04, 20.04 or 22.04 depending on version. In theory they should work but are not yet confirmed.
 * Windows version coming shortly.
 ## Example Usage
+* Note: currently for voltage control you need to separately place the teamreadminer executable `teamredminer/teamredminer` in the rushminer sub-directory `util`.
 ```
 sudo ./rushminer --log-level=info --no-ui --key-input --open-no-res -p rushtest -o stratum+tcp://ton.hashrate.to:4002 -t gram -u "UQAZwEyMpjkLNP3I0ytqWT2N1oanX06hwM10gyN4KljABvT5"  \
     --ftdi-cmd="monitor -t 5500 -p 350 --unit-count=1 -v user" \
